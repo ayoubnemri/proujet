@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.product {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.product h2 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.product .price {
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.product .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.product .btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+img{
+ width: 100px;
+ height: 100px;   
+}/* Resetting default styles and setting basic typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Resetting default styles and setting basic typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Light gray background */
+}
+
+/* Styling the navigation */
+nav {
+    background-color: #333; /* Dark background for the navigation */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Center-aligning text */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    display: inline-block; /* Display links horizontally */
+    margin-right: 10px; /* Margin between each link */
+}
+
+.nav-links li a {
+  /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around text */
+}
+
+.nav-links li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+/* Styling the payment form */
+.payment-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+.payment-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.payment-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.payment-form label {
+    font-weight: bold;
+}
+
+.payment-form input[type="text"],
+.payment-form input[type="number"],
+.payment-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.payment-form input[type="text"]:focus,
+.payment-form input[type="number"]:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.payment-form #total {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.payment-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payment-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+/* Resetting default styles and setting basic typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f88000; /* Light gray background */
+}
+
+/* Styling the navigation */
+nav {
+    background-color: #ffffff; /* Dark background for the navigation */
+    color: #920086; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Center-aligning text */
+}
+
+.nav-links {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-links li {
+    display: inline-block; /* Display links horizontally */
+    margin-right: 10px; /* Margin between each link */
+}
+
+.nav-links li a {
+    color: #000000; /* Text color */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around text */
+}
+
+.nav-links li a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+/* Styling the contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #ffffff; /* White background for the form */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.879); /* Shadow for depth */
+}
+
+.contact-form h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contact-form form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.contact-form input[type="text"]:focus,
+.contact-form input[type="email"]:focus,
+.contact-form input[type="tel"]:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #000000; /* Dark background for the footer */
+    color: #fff; /* Text color */
+    text-align: center; /* Center-aligning text */
+    padding: 10px 0; /* Padding for top and bottom */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width */
+}
+/* Resetting default styles and setting basic typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #00ffbf; /* Light gray background */
+}
+
+/* Styling the navigation */
+#navigation {
+    background-color: #000000; /* Dark background for the navigation */
+    color: #fbfff9; /* Text color */
+    padding: 10px 0; /* Padding for top and bottom */
+    text-align: center; /* Center-aligning text */
+}
+
+#navigation a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around text */
+}
+
+#navigation a:hover {
+    background-color: #555; /* Background color on hover */
+}
+
+/* Styling the hero section */
+.hero {
+    background-image: url('hero-background.jpg'); /* Example background image */
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* Text color */
+    text-align: center; /* Center-aligning text */
+    padding: 100px 0; /* Padding for top and bottom */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Styling the features section */
+.features {
+    background-color: #ffffff; /* White background */
+    text-align: center; /* Center-aligning text */
+    padding: 50px 0; /* Padding for top and bottom */
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #ffffff; /* Dark background for the footer */
+    color: #fd1100; /* Text color */
+    text-align: center; /* Center-aligning text */
+    padding: 10px 0; /* Padding for top and bottom */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width */
+}
+/* Resetting default styles and setting basic typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Light gray background */
+}
+
+/* Styling the navigation */
+#navigation {
+    background-color: #ededed; 
+    padding: 10px 0; 
+    text-align: center; 
+}
+
+#navigation a {
+    color: #fff; /* Text color for links */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Padding around text */
+}
+
+#navigation a:hover {
+    background-color: #000000; /* Darker background color on hover */
+}
+
+/* Styling the hero section */
+.hero {
+    background-image: url('hero-background.jpg'); /* Example background image */
+    background-size: cover;
+    background-position: center;
+    color: #000000; /* White text color */
+    text-align: center; /* Center-aligning text */
+    padding: 100px 0; /* Padding for top and bottom */
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Styling the features section */
+.features {
+    background-color: #000000; /* White background */
+    text-align: center; /* Center-aligning text */
+    padding: 50px 0; /* Padding for top and bottom */
+}
+
+.features h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+.features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Styling the footer */
+footer {
+    background-color: #000000; /* Dark background for the footer */
+    color: #000000; /* White text color */
+    text-align: center; /* Center-aligning text */
+    padding: 10px 0; /* Padding for top and bottom */
+    position: fixed; /* Fixed position at the bottom */
+    bottom: 0; /* Stick to the bottom of the viewport */
+    width: 100%; /* Full width */
+}
+nav {
+    background-color: #f0f0f0; /* Background color */
+    padding: 10px; /* Padding around the nav */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styles */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin-right: 10px; /* Spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link text color */
+    padding: 5px 10px; /* Padding inside each link */
+    border-radius: 3px; /* Rounded corners for links */
+}
+
+nav ul li a:hover {
+    background-color: #ddd; /* Background color on hover */
+}
